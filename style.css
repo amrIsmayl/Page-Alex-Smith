@@ -1,0 +1,641 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bd{
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h2{
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+p{
+    color: #555555;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+h3{
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #333333;
+}
+
+.clar{
+    clear: both;
+}
+
+textarea{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+h1{
+    font-size: 70px;
+    color: #ff305b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* navbar */
+
+.nav{
+    background-color: #333;;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.navbar{
+    overflow: auto;
+}
+
+.logo{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin: 18px 0px;
+    font-size: 24px;
+    font-weight: 800;
+    display: block;
+}
+
+.navbar  a{
+    color: #ff305b;
+}
+
+.tabe_ul{
+    /* background-color: tomato; */
+    float: right;
+}
+
+.tabe_ul li{
+    float: left;
+    margin: 20px 10px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+/* ALEX SMITH */
+
+.home{
+    background-image: url(img/slider/slider-01.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hello_1{
+    /* background-color: rgb(0, 0, 0 , .8); */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ppp{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+.hello_1 p{
+    color: white;
+    font-size: 26px;
+}
+
+.res{
+    background-color: rgb(0, 0, 0 , .8);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* HELLO */
+
+.HELLO{
+    padding: 100px 0px;
+}
+
+.HELLO_photo{
+    width: 40%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.HELLO_img{
+    border: #555555 8px  solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+.HELLO_img img{
+    width: 100%;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.HELLO_img_over{
+    background: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    left: 20px;
+    bottom: -30px;
+    top: 30;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 999;
+}
+
+.HELLO_img_over:hover{
+    background: rgba(0, 0, 0, 0.57);
+}
+
+.HELLO_inf{
+    width: 60%;
+    float: left;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.HELLO_inf_dash{
+    width: 100%;
+    border-top: 1px dashed #555555;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.HELLO_inf_ul ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+
+.ul_1{
+    float: left;
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ul_2{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HELLO_inf_ul li{
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.HELLO_inf_ul span{
+    color: #333333;
+    font-weight: 800;
+}
+
+.HELLO_butt{
+    padding: 15px 30px;
+    margin-right: 15px;
+    background-color: #ff305b;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+
+
+/* Our Services */
+
+.Our_Services{
+    background-color: #f1f1f1;
+    padding: 100px 0px  54px  0px;
+}
+
+/* .Our_tab{
+    background-color: yellow;
+} */
+
+.Our_Services .tab{
+    float: left;
+    width: 25%;
+    padding: 40px  15px;
+    text-align: center;
+}
+
+.tab img{
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Our Portfolio */
+
+.Our_Portfolio{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Our_Portfolio .Our{
+    margin-bottom: 40px;
+}
+
+.Portfolio_a a{
+    margin: 10px;
+    
+}
+
+.Portfolio_bord{
+    margin-top: 40px;
+}
+
+.P1{
+    overflow: auto;
+}
+
+.P1_1{
+    float: left;
+    width: 33.33333%;
+    padding: 15px;
+    position: relative;
+}
+
+.over1{
+    z-index: 999;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    transition-duration: 1s;
+}
+
+.over1:hover {
+    background-color: rgba(51, 51, 51, .5);
+}
+
+.P1_1 img{
+    width: 100%;
+    z-index: 99;
+}   
+
+
+
+/* Client's Feedback */
+
+
+.Client{
+    padding: 100px 0px;
+}
+
+.alex{
+    padding: 40px;
+    margin-top: 25px;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.alex_img{
+    /* background-color: yellow; */
+    float: left;
+    width: 30%;
+    padding: 5px  0px  30px  100px;
+}
+
+.alex_img_img{
+    width: 100%;
+
+}
+
+.alex_img img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+.alex_inf{
+    /* background-color: darkgreen; */
+    float: left;
+    width: 70%;
+}
+
+.alex_inf h3{
+    font-size: 26px;
+}
+
+
+
+
+
+/* Our Blog */
+
+.Our_Blog{
+    background: #f1f1f1;
+    padding: 80px 0 50px;
+    box-sizing: border-box;
+    padding: 100px  0px  70px  0px;
+}
+
+.Our{
+    text-align: center;
+}
+
+.hash{
+    width: 70px;
+    height: 3px;
+    border-top: .1px red  solid;
+    margin: auto;
+}
+
+.hash1{
+    width: 170px;
+    height: 3px;
+    border-top: .1px red  solid;
+    margin: auto;
+}
+
+.tabe_Our{
+    margin-top: 40px;
+}
+
+.tabe{
+    width: 33.333%;
+    float: left;
+    padding: 0px  15px;
+    box-sizing: border-box;
+}
+
+.tabe_back{
+    background-color: white;
+    padding: 20px;
+}
+
+.tabe img{
+    width: 100%;
+}
+
+.tabe iframe{
+    width: 100%;
+    height: 28%; 
+}
+
+.Our_Blog h2{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.p_1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.p_2{
+    margin-bottom: 15px;
+}
+
+.Our_Blog h3{
+    margin: 0px;
+}
+
+.a_1{
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Contact Us */
+
+.Contact_Us{
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+
+.inputs{
+    width: 55%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.frist{
+    padding-right: 15px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.sec{
+    padding-left: 15px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.frist_input input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.sec_input input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.ther_input button{
+    width: 20%;
+    height: 40px;
+    background-color: #ff305b;
+    border: 1px solid #ff305b;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+
+/* end */
+.end{
+    background-color: #333333;
+    padding: 50px  0px;
+}
+
+.end p{
+    color: white;
+}
+
+.end a{
+    color: #ff305b;
+}
+
+.end_inf{
+    text-align: center;
+    /* margin: 50px 0px; */
+}
+
+
+
+@media screen and (max-width:576px) and (min-width:0px) {
+    /* body{
+        background-color: #ff305b;
+    } */
+    .Our_Services .tab{
+        width: 100%;
+    }
+    .P1_1{
+        width: 100%;
+    }
+
+    .tabe{
+        width: 100%;
+    }
+
+    .HELLO_photo{
+        width: 100%;
+    }
+
+    .HELLO_inf{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) and (min-width:577px) {
+    /* body{
+        background-color:yellow;
+    } */
+    .Our_Services .tab{
+        width: 50%;
+    }
+    .P1_1{
+        width: 50%;
+    }
+
+    .tabe{
+        width: 50%;
+    }
+
+    .tabe iframe{
+        width: 100%;
+        height: 21%;
+    }
+
+    .HELLO_photo{
+        width: 100%;
+    }
+
+    .HELLO_inf{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+@media screen and (max-width:992px) and (min-width:769px) {
+    /* body{
+        background-color: aqua;
+    } */
+    .Our_Services .tab{
+        width: 33.3333%;
+    }
+    .P1_1{
+        width: 50%;
+    }
+
+    .tabe{
+        width: 50%;
+    }
+
+    .HELLO_photo{
+        width: 100%;
+    }
+
+    .HELLO_inf{
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width:1200px) and (min-width:993px) {
+    /* body{
+        background-color: green;
+    } */
+    .Our_Services .tab{
+        width: 33.3333%;
+    }
+
+    .P1_1{
+        width: 33.3333%;
+    }
+
+    .tabe iframe{
+        width: 100%;
+        height: 24%;
+        
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:1400px) and (min-width:1201px) {
+    /* body{
+        background-color: #ff305b;
+    } */
+}
+
+
+
+
